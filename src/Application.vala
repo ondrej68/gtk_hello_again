@@ -5,7 +5,6 @@ public class MyApp : Gtk.Application {
          flags: ApplicationFlags.FLAGS_NONE
          );
    }
-   
    protected override void activate () {
       var label = new Gtk.Label ("Hello Again World!");
       
